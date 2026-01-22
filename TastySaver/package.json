@@ -1,0 +1,51 @@
+{
+  "name": "tastysaver",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo-google-fonts/berkshire-swash": "^0.3.0",
+    "@expo-google-fonts/lato": "^0.3.0",
+    "@expo-google-fonts/lobster": "^0.3.0",
+    "@expo-google-fonts/pacifico": "^0.3.0",
+    "@expo-google-fonts/rubik": "^0.3.0",
+    "@react-native-picker/picker": "^2.11.0",
+    "@react-navigation/bottom-tabs": "^7.3.10",
+    "@react-navigation/native": "^7.1.4",
+    "@react-navigation/native-stack": "^7.3.8",
+    "expo": "~52.0.43",
+    "expo-font": "~13.0.4",
+    "expo-image-picker": "~16.0.6",
+    "expo-status-bar": "~2.0.1",
+    "firebase": "^11.6.0",
+    "firestore": "^1.1.6",
+    "lucide-react-native": "^0.488.0",
+    "nativewind": "^4.1.23",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-heroicons": "^4.0.0",
+    "react-native-modal": "^14.0.0-rc.1",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-reanimated-carousel": "^4.0.2",
+    "react-native-root-siblings": "^5.0.1",
+    "react-native-root-toast": "^4.0.1",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "react-native-shadow-2": "^7.1.1",
+    "react-native-snap-carousel": "^4.0.0-beta.6",
+    "react-native-svg": "^15.8.0",
+    "expo-file-system": "~18.0.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "tailwindcss": "^3.4.17"
+  },
+  "private": true
+}
